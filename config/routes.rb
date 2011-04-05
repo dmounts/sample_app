@@ -6,7 +6,7 @@ SampleApp::Application.routes.draw do
   # just remember to delete public/index.html.
   root :to => "pages#home"
 
-  match '/contact', :to => 'pages#contact'
+  match '/contacts/company', :to => 'pages#contact'
   match '/about',   :to => 'pages#about'
   match '/help',    :to => 'pages#help'
   match '/signup',  :to => 'users#new'
