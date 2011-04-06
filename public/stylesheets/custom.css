@@ -131,3 +131,9 @@ footer nav {
     border: 1px solid #999;
     margin-bottom: -15px;
 }
+
+/* sign up page */
+
+div.field, div.action {
+    margin-bottom: 10px;
+}
