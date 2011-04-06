@@ -1,6 +1,18 @@
-<h1>
+<div class=profile_body>
+  <div class="profile_left_column round">
+    <h1>
+      <%= gravatar_for(@user) %>
+      <%= @user.name %>
+    </h1>
+  </div>
 
-  <%= gravatar_for(@user) %>
-  <%= @user.name %>
+  <div class="profile_right_column round">
+        <strong>Name</strong> <%= @user.name %>
+        <br />
+        <strong>URL</strong> <%= link_to user_path, user_path  %>
+  </div>
 
-</h1>
+</div>
+
+
+

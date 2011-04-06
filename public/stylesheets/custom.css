@@ -106,3 +106,28 @@ footer {
 footer nav {
   float: none;
 }
+
+
+/* show user */
+
+.profile_body {
+    height: 100px;
+}
+
+.profile_left_column {
+    float: left;
+    width: 60%;
+    padding: 1em;
+}
+
+.profile_right_column {
+    float: right;
+    background-color: #ffc;
+    width: 25%;
+    padding: 1em;
+}
+
+.gravatar {
+    border: 1px solid #999;
+    margin-bottom: -15px;
+}
