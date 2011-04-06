@@ -16,4 +16,5 @@ group :test do
   gem 'webrat', '0.7.1'
   gem 'ZenTest'
   gem 'autotest-growl'
+  gem 'factory_girl_rails'
 end
